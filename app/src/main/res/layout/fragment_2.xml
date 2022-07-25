@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment2"
+    android:orientation="vertical"
+    android:background="@color/design_default_color_primary_dark">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_enviar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
